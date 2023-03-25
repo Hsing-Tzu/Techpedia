@@ -29,7 +29,7 @@ a {
 }
 
 .words{
-  width: 25%;
+  width: calc(25% - 12px);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
