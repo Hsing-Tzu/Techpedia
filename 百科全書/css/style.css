@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");
+body {
+  margin: 0;
+  font-family: "Noto sans TC", sans-serif;
+  letter-spacing: 1px;
+  color: #333;
+  line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+.wrapper-content {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 50px;
+}
+
+.exploration{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:0 50px ;
+}
+
+.words{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 200px;
+}
+
+.words-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.words-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.words-image {
+  position: relative;
+}
+
+.words-image img {
+  display: block;
+  width: 240px;
+  height: 180px;
+}
+
+.words-image:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 90px;
+  margin-top: -45px; 
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.words a{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+}
