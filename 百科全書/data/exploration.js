@@ -1,6 +1,6 @@
 const word = [
     {
-        href:"",
+        href:"https://hsing-tzu.github.io/Techpedia/%E7%99%BE%E7%A7%91%E5%85%A8%E6%9B%B8/cryptocurrency.html",
         src:"./image/cryptocurrency.jpeg",
         ctitle:"加密貨幣",
         etitle:"Cryptocurrency",
