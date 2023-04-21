@@ -216,5 +216,7 @@ footer{
     position: relative;
     height: 200px;
   }
-  
+  footer{
+    height: 300px;
+  }
 }
