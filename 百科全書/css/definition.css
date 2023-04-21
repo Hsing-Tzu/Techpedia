@@ -89,3 +89,35 @@ a {
     margin-top: -75px; 
     background-color: rgba(0, 0, 0, 0.5);
   }
+
+@media screen and (max-width: 767px) {
+  .definition{
+    flex-direction: column;
+    width: unset;
+  }
+  .wordsdefinition{
+    margin-top: 10px;
+  }
+  .tool{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+    align-content: center;
+  }
+  .tool_image img {
+    display: block;
+    width: 240px;
+    height: 180px;
+}
+.tool_image:before {
+  height: 100px;
+  margin-top: -50px;
+}
+}
+
