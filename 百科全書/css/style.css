@@ -47,6 +47,10 @@ footer{
     margin: 0 auto;
 }
 
+.not-ready{
+  color: lightgray;
+}
+
 .exploration{
   display: flex;
   flex-direction: row;
@@ -76,6 +80,7 @@ footer{
   z-index: 1;
   white-space: nowrap;
   text-align: center;
+  font-size: larger;
 }
 
 .words-text a {
@@ -112,8 +117,9 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(0,0,0,0.8);
+  background-color: rgb(0,0,0,0.5);
   color: white;
+  font-size: smaller;
 }
 
 .words a{
@@ -183,8 +189,15 @@ footer{
     color: white;
   }
 
-  .header-content_active .link-text {
+  .ready{
     color: white;
+  }
+
+  .not-ready{
+    color: gray;
+  }
+
+  .header-content_active .link-text {
     font-size: 36px;
     margin-bottom: 50px;
   }
@@ -197,6 +210,8 @@ footer{
   .header-content_active .cross-button {
     background-color: white;
   }
+
+  
 
   .header-content_active .cross-button-top {
     transform: rotate(45deg) translateY(2px);

@@ -12,6 +12,6 @@ const wordstextElements = [...document.getElementsByClassName('words-text')];
 wordstextElements.forEach((wordtextElement, idx) => {
   const aElement = document.createElement('a');
   aElement.href = word[idx].href;
-  aElement.innerText = word[idx].ctitle + " \n " + word[idx].etitle;
+  aElement.innerText = word[idx].ctitle + " \n" + word[idx].etitle;
   wordtextElement.appendChild(aElement);
 });

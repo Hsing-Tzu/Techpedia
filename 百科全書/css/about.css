@@ -23,6 +23,19 @@ h4{
     font-size: 25px;
 }
 
+.Techpedia{
+  display: flex;
+  margin: 25px;
+  justify-content: flex-end;
+}
+
+.logo {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  color: #000;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
 .content{
     font-size: 20px;
 }
@@ -173,6 +186,9 @@ h4{
     transition-delay: 0s;
   }
 @media screen and (max-width: 767px) {
+  body{
+    margin: unset;
+  }
   .hexagon_top, .hexagon_bottom {
     display: flex;
     flex-direction: column;
